@@ -16,9 +16,7 @@ The project emphasizes **clean architecture, responsive design, performance opti
 
 🌐 **Live Website:** *(Add your deployed link here)*
 
-🎥 **Demo Video:** *(Add your Drive link here)*
-
-📂 **GitHub Repository:** *(Add repository link here)*
+🎥 **Demo Video:** *([https://youtu.be/iUs-pmgJXbc](https://youtu.be/iUs-pmgJXbc))*
 
 ---
 
