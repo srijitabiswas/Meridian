@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-feature-settings: 'tnum' 1;
+  }
+
+  ::selection {
+    background-color: #ffc801;
+    color: #172b36;
+  }
+
+  /* Visible, on-brand focus ring everywhere a native outline would
+     otherwise be suppressed — accessibility requirement, not optional. */
+  :focus-visible {
+    outline-color: #ffc801;
+  }
+
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+}
+
+/* Respect reduced-motion at the OS level: collapse every custom animation
+   and CSS transition to near-instant, regardless of which utility classes
+   were applied. This is the single global safety net the design spec asks
+   for ("loader must never delay TTI", motion should be skippable). */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
