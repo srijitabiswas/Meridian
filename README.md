@@ -14,7 +14,7 @@ The project emphasizes **clean architecture, responsive design, performance opti
 
 ## Live Demo
 
-🌐 **Live Website:** *(Add your deployed link here)*
+🌐 **Live Website:** *([https://meridian-jnhn.onrender.com/](https://meridian-jnhn.onrender.com/))*
 
 🎥 **Demo Video:** *([https://youtu.be/iUs-pmgJXbc](https://youtu.be/iUs-pmgJXbc))*
 
